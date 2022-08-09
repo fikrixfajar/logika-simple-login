@@ -12,22 +12,20 @@
         <img src="src/artworkid.png" alt="">
         <nav>
             <ul>
-                <li><input placeholder="username" id="usernameInput"></li>
-                <li><input placeholder="password" id="passwordInput"></li>
-                <li><button onClick="onLogin">Login</button></li>
+                <li><input type="text" placeholder="username" id="usernameInput"></li>
+                <li><input type="password" placeholder="password" id="passwordInput"></li>
+                <li><button onClick="onLogin()" id="buttonLogin">Login</button></li>
+                <li><button onClick="onLogout()" id="buttonLogout">Logout</button></li>
             </ul>
             </input>
-            
         </nav>
+
+        <h2 id="admin">Sekarang Anda Login Sebagai Admin</h2>
+        <h2 id="member">Sekarang Anda Login Sebagai Member</h2>
+
     </div>
 
-
-
-
-    
-<div class="navbar"></div>
-    <!-- <input placeholder="username" id="usernameInput">
-    <input placeholder="password" id="passworInput"> -->
-    <script type="application/javascript" src="script.js"></script>
+   
+       <script type="application/javascript" src="script.js"></script>
   </body>
 </html>
